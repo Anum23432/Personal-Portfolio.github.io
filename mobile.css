@@ -1,0 +1,59 @@
+#home{
+    height:760px;
+}
+#home::before{
+background: url('Images/12.jpg') no-repeat center center/cover ;
+}
+.heading{
+    font-size: 1.5rem;
+
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    top:0;
+    background-color: black;
+}
+.navbar ul li{
+    font-family:'Big Shoulders Display', cursive ;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+#pic img{
+    width:300px;
+    height: 160px;
+}
+#intro h2{
+    font-size: 2rem;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: darkgrey;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height:auto;
+}
+#input{
+    width:80%;
+
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width:30%;
+    text-align: center;
+}
+#icons a i{
+        padding-inline: 10px;
+        text-decoration: none;
+        font-size: 3em;
+}
