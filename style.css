@@ -13,7 +13,7 @@ html{
     justify-content: center;
     align-items: center;
     background-color: black;
-    position:sticky;
+    position:static;
     top:0;
 }
 /* nav list */
